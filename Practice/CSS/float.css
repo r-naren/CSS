@@ -1,0 +1,16 @@
+img{
+    float: left;
+    margin-right: 1rem;
+}
+body{
+    width: 100%;
+    margin:0 auto;
+}
+.box{
+    float: left;
+    text-align: center;
+    width:20%;
+    margin-right: 4.5%;
+
+    border: 1px solid crimson;
+}
