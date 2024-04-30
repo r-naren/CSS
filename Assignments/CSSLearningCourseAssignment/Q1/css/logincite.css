@@ -1,0 +1,213 @@
+@media all and (min-width:30rem){
+body{
+    background-color: rgba(0,0,0,0.5);
+    font-family: sans-serif;
+    overflow: auto;
+}
+.wrapper{
+    height:97vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow: auto;
+}
+.main{
+    height: 30rem;
+    display: flex;
+}
+.left-box{
+    background-color: brown;
+    color: white;
+    width:50%;
+    padding:1.5rem 2.5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.right-box{
+    background-color: white;
+    color: brown;
+    width:50%;
+    padding:1.5rem 2.5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.h4-heading{
+    font-weight: bold;
+    font-size:1.3rem;
+    margin-bottom: -0.2rem;
+    color:black
+}
+.paragraph{
+    color:rgb(173, 49, 49);
+    line-height: 1.2rem;
+}
+.link{
+    text-decoration: none;
+    color:rgb(173, 49, 49);
+}
+.account-link{
+    text-decoration: none;
+}
+.field{
+    padding:0.8rem 0.4rem;
+    width: 100%;
+    margin-bottom: 1rem;   
+    border: solid;
+    border-color: #e5dede;
+    border-width: 0.1rem;
+    border-radius: 0.2rem;
+}
+.field[placeholder]{
+    font-size: medium;
+    color: #d6cfcf;
+}
+.remember-me{
+    font-weight: bolder;
+    color: black;
+}
+.login-button{
+    padding: 0.8rem 1.4rem;
+    color: #ffffff;
+    background-color: rgb(255, 5, 76);
+    border-style: none;
+    border-radius: 0.2rem;
+    margin-bottom: -0.7rem;
+}
+
+.facebook, .google, .twitter{
+    margin: 0.25rem 0;
+    padding: 0.5rem;
+}
+.facebook> a, .google>a , .twitter>a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    
+}
+.facebook> img, .google>img , .twitter>img{
+    vertical-align: text-bottom;
+    
+}
+.facebook{
+    background-color: rgb(24, 119, 242);
+}
+.google{
+    background-color: #db4437 ;
+}
+.twitter{
+    background-color: rgb(29,161,242);
+}}
+@media all and (min-width:10rem){
+    body{
+        background-color: rgba(0,0,0,0.5);
+        font-family: sans-serif;
+        overflow: auto;
+    }
+    .wrapper{
+        height:97vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        overflow: auto;
+    }
+    .main{
+        height: 70vh;
+        display: flex;
+        min-width: 32rem;
+        min-height: 30rem;
+    
+        overflow: auto;
+    }
+    .left-box{
+        background-color: brown;
+        color: white;
+        width:50%;
+        padding:1.5rem 2.5rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
+    }
+    .right-box{
+        background-color: white;
+        color: brown;
+        width:50%;
+        padding:1.5rem 2.5rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: auto;
+    }
+    .h4-heading{
+        font-weight: bold;
+        font-size:1.3rem;
+        margin-bottom: -0.2rem;
+        color:black
+    }
+    .paragraph{
+        color:rgb(173, 49, 49);
+        line-height: 1.2rem;
+    }
+    .link{
+        text-decoration: none;
+        color:rgb(173, 49, 49);
+    }
+    .account-link{
+        text-decoration: none;
+    }
+    .field{
+        padding:0.8rem 0.4rem;
+        width: 100%;
+        margin-bottom: 1rem;   
+        border: solid;
+        border-color: #e5dede;
+        border-width: 0.1rem;
+        border-radius: 0.2rem;
+    }
+    .field[placeholder]{
+        font-size: medium;
+        color: #d6cfcf;
+    }
+    .remember-me{
+        font-weight: bolder;
+        color: black;
+    }
+    .login-button{
+        
+        padding: 0.8rem 1.4rem;
+        color: #ffffff;
+        background-color: rgb(255, 5, 76);
+        border-style: none;
+        border-radius: 0.2rem;
+        margin-bottom: -0.7rem;
+    }
+    
+    .facebook, .google, .twitter{
+        margin: 0.25rem 0;
+        padding: 0.5rem;
+    }
+    .facebook> a, .google>a , .twitter>a{
+        text-decoration: none;
+        color: white;
+        padding: 0.5rem;
+        
+    }
+    .facebook> img, .google>img , .twitter>img{
+        vertical-align: text-bottom;
+        
+    }
+    .facebook{
+        background-color: rgb(24, 119, 242);
+    }
+    .google{
+        background-color: #db4437 ;
+    }
+    .twitter{
+        background-color: rgb(29,161,242);
+    }}
